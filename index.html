@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #randomNote {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            max-width: 600px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="randomNote">Click the button to show a random note.</div>
+    <button onclick="showRandomNote()">Show Random Note</button>
+
+    <script>
+        // Initial notes directly embedded in the HTML file
+        const notes = [
+            // Add additional notes here
+        
+"Jeg tenker at switch -logikk er slik at avsender mac-addressen benyttes til å lære hvordan å nå denne avsenderen i fremtiden.",
+"Jeg tenker at kommandoen VLAN 4 er til for å konfigurere VLAN nummer fire.",
+"Jeg tenker at switch interface som er i spanning-tree blocking state lærer ikke nye mac-addresser. Noe som gjør at switchen er i stand til å nå riktig mottaker.",
+"Jeg tenker at VLAN ID og VLAN tagging egenskapene hjelper switcher å motta og å overføre trafikken til det riktige VLANET. Det betyr at dataen når riktig mottaker.",
+"Jeg tenker at en Switch som ikke mottar noe trafikk har en tom mac-addresse tabell.",
+"Jeg tenker at kommandoen switchport access vlan vlan-id benyttes til å konfigurere switchporten til å kommunisere bare i ett vlan. Dette kombineres med kommandoen switchport mode access slik at switchen oppfører seg som en static access port. Dette er også med å øke sikkerheten i nettverket.",
+"Jeg tenker at VLAN tillater en switch å oprette flere broadcast domener, slik at ytelsen og sikkerheten i nettverket.",
+"Jeg tenker at for å sette den administrative modusen for en Cisco enhet til trunk, benytter man kommandoen switchport mode etterfulgt av trunk.",
+"Jeg tenker at VLAN Trunking tillater et ubegrenset antall VLAN å overføres over en link uten ekstra hardware.",
+
+        ];
+
+        function showRandomNote() {
+            if (notes.length > 0) {
+                const randomIndex = Math.floor(Math.random() * notes.length);
+                document.getElementById("randomNote").innerText = notes[randomIndex];
+            } else {
+                document.getElementById("randomNote").innerText = "No notes available.";
+            }
+        }
+    </script>
+</body>
+</html>
