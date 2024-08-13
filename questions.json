@@ -33,7 +33,7 @@
 "Jeg tenker at RFC'er beskriver TCP/IP og  er tilgjengelige gjennom søkemotorer online.",
 "Jeg tenker at dersom vi tilkobler de rette kablene mellom en datamaskin og nettverket vil vi være i stand til å kommunisere i nettverket.",
 "Jeg tenker at operativsystem produsenter implemterer TCP/IP i programvarene.",
-"Jeg tenker at nettverksmodeller typisk deler inn modellen i ulike kategorier kalt "layers"",
+"Jeg tenker at nettverksmodeller typisk deler inn modellen i ulike kategorier kalt layers",
 "Jeg tenker at de øverste layers i en nettverkmodell fokuserer på progrmavarene som sender og mottar data.",
 "Jeg tenker at data-link layer i TCP/IP modellen spesifiserer hvilket medium data sendes over. Foreksempel vil et moderne LAN benytte WiFi mens et WAN kanskje benytter serial.",
 "Jeg tenker at utviklingen av AI skyter fart dersom det har  støtte i lovverket ,tilsktrekkelige investeringer, tilstrekkelig prosserkapasitet , men også tilstrekkelig lagring.",
@@ -72,5 +72,5 @@
 "Jeg tenker at VLAN tillater en switch å oprette flere broadcast domener, slik at ytelsen og sikkerheten i nettverket.",
 "Jeg tenker at for å sette den administrative modusen for en Cisco enhet til trunk, benytter man kommandoen switchport mode etterfulgt av trunk.",
 "Jeg tenker at VLAN Trunking tillater et ubegrenset antall VLAN å overføres over en link uten ekstra hardware.",
-    // Add more notes here
+    
 ]
