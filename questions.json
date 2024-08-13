@@ -71,6 +71,6 @@
 "Jeg tenker at kommandoen switchport access vlan vlan-id benyttes til å konfigurere switchporten til å kommunisere bare i ett vlan. Dette kombineres med kommandoen switchport mode access slik at switchen oppfører seg som en static access port. Dette er også med å øke sikkerheten i nettverket.",
 "Jeg tenker at VLAN tillater en switch å oprette flere broadcast domener, slik at ytelsen og sikkerheten i nettverket.",
 "Jeg tenker at for å sette den administrative modusen for en Cisco enhet til trunk, benytter man kommandoen switchport mode etterfulgt av trunk.",
-"Jeg tenker at VLAN Trunking tillater et ubegrenset antall VLAN å overføres over en link uten ekstra hardware.",
+"Jeg tenker at VLAN Trunking tillater et ubegrenset antall VLAN å overføres over en link uten ekstra hardware."
     
 ]
