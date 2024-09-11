@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes App</title>
+    <title>Exercise App</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,14 +33,13 @@
     </style>
 </head>
 <body>
-    <div id="randomNote">Click the button to show a random note.</div>
-    <button onclick="showRandomNote()">Show Random Note</button>
+    <div id="randomNote">Click the button to show a random exercise.</div>
+    <button onclick="showRandomNote()">Show Random Exercise</button>
 
     <script>
         // Initial notes directly embedded in the HTML file
         const notes = [
             // Add additional notes here
-            "Quadruped hip circles",
 "Quadruped hip circles",
 "Side lying hip raises",
 "Sidelying hip circles",
@@ -56,7 +55,7 @@
 "Squats",
 "Squat Bouncers",
 "Glute Bridge",
-"Prone Hip Extsensions",
+"Prone Hip Extension",
 "Pushups",
 "Supine hip abduction",
 "Prone hip abduction",
@@ -75,7 +74,7 @@
                 const randomIndex = Math.floor(Math.random() * notes.length);
                 document.getElementById("randomNote").innerText = notes[randomIndex];
             } else {
-                document.getElementById("randomNote").innerText = "No notes available.";
+                document.getElementById("randomNote").innerText = "No exercise available.";
             }
         }
     </script>
